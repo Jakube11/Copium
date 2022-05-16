@@ -1,1 +1,1 @@
-do we have any ideas on what to make this?
+.net is not working for VSCode
