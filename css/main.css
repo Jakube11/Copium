@@ -1,3 +1,44 @@
-#body{
-    background-color: rgb(11,11,11);
+body{
+    background-color: rgb(37, 37, 37);
+    color: rgb(0, 195, 255);
+    font-family: 'JetBrains Mono' /*place other fonts here, keep JetBrains as font*/;
+    margin: 0%;
+    padding: 0%;
+}
+
+body header{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(65, 65, 65);
+}
+
+body header a{
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 0px rgb(0, 0, 0) solid;
+    color: rgb(37, 37, 37);
+    background-color: rgb(0, 195, 255);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+body header a:hover{
+    cursor: pointer;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 0px rgb(0, 0, 0) solid;
+    color: rgb(37, 37, 37);
+    background-color: rgb(0, 119, 255);
+    border-radius: 20px;
+}
+
+#header_h1_home{
+    background-color: rgb(37, 37, 37);
+    color: rgb(0, 195, 255);
+    font-family: 'JetBrains Mono' /*place other fonts here, keep JetBrains as font*/;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(65, 65, 65);
 }
