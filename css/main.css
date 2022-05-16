@@ -2,17 +2,27 @@ body{
     background-color: rgb(37, 37, 37);
     color: rgb(0, 195, 255);
     font-family: 'JetBrains Mono' /*place other fonts here, keep JetBrains as font*/;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body header{
+    position: absolute;
+    width: 100%;
+    margin: 0px;
     text-align: center;
     font-weight: bolder;
     background-color: rgb(65, 65, 65);
+    padding: 0%;
+}
+
+#header_h2{
+    padding: 8px;
 }
 
 body header a{
+    margin-left: 2%;
+    margin-right: 2%;
     padding-left: 2%;
     padding-right: 2%;
     border: 0px rgb(0, 0, 0) solid;
@@ -20,6 +30,7 @@ body header a{
     background-color: rgb(0, 195, 255);
     border-radius: 20px;
     text-decoration: none;
+    font-size: large;
 }
 
 body header a:hover{
@@ -33,11 +44,25 @@ body header a:hover{
 }
 
 #header_h1_home{
+    font-size: xx-large;
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    color: rgb(0, 195, 255);
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif /*place other fonts here, keep JetBrains as font*/;
+    margin: 0%;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+}
+
+#header_h1_subhome{
+    font-size: large;
+    position: relative;
     background-color: rgb(37, 37, 37);
     color: rgb(0, 195, 255);
     font-family: 'JetBrains Mono' /*place other fonts here, keep JetBrains as font*/;
     margin: 0%;
-    padding: 0%;
+    padding: 0px;
     text-align: center;
     font-weight: bolder;
     background-color: rgb(65, 65, 65);
