@@ -6,6 +6,10 @@ body{
     padding: 0px;
 }
 
+#post *{
+    cursor: default;
+}
+
 body header{
     top: 0px;
     width: 100%;
@@ -78,12 +82,11 @@ body header a:hover{
     border-radius: 20px;
 
 }
-
 #post{
     background-color: rgb(0, 195, 255);
     color: black;
-    border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
+    border-top: black 5px solid;
 }
 
 #post_meta{
@@ -98,4 +101,8 @@ body header a:hover{
 #post_meta h4{
     padding: 0%;
     margin: 0%;
+}
+
+#content{
+    font-weight: 400;
 }
