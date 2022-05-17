@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Copium</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="favicon" href="/img/C.ico">
+    <!--link favicon-->
+    <link rel="shortcut icon" href="/img/C.ico" type="image/x-icon">
+    <script src="/js/vote.js"></script>
+</head>
+<body>
+    <header>
+        <a href="/html/Home.html" id="header_h1_home">COPIUM</a><br>
+        <a href="/html/Home.html" id="header_h1_subhome">A place to spread gossip</a><br>
+        <div id="header_h2">
+            <a href="" id="header_h2_post">New Post</a>
+            <a href="/html/Contact.html" id="header_h2_contact">Contact</a>
+            <a href="" id="header_h2_login">Login</a>
+            <a href="" id="header_h2_signup">Sign Up</a>
+        </div>
+    </header>
+
+    <div id="page_div_title"><h2 id="page_title">Message The Developers</h2></div>
+    <form method="post" action="/php/contact.php">
+        <div class="postboard">
+            <textarea name="content" id="dev_msgr_txt" placeholder="Write your message here ..."></textarea>
+        </div>
+        <div id="dev_s_d">
+            Send to:
+            <select name="dev_r" class="postboard" id="dev_recipient">
+                <option>All Admins</option>
+                <option>Lead Programmer</option>
+                <option>Lead Art Designer</option>
+                <option>Lead Moderator</option>
+            </select>
+
+            <input class="postboard" id="dev_recipient" type="submit" value="Send"></input>
+        </div>
+
+    </form>
+    
+</body>
+</html>

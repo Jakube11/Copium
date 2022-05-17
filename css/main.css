@@ -81,7 +81,7 @@ body header a:hover{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
-
+    border-style: none;
 }
 #post{
     background-color: rgb(0, 195, 255);
@@ -119,9 +119,46 @@ body header a:hover{
 
 #downvote{
     rotate: 180deg;
+    position: relative;
+    top: 3px;
 }
 
 #vote_counter{
     position: relative;
     bottom: 9px;
+}
+
+#dev_msgr_txt{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    min-width: 99%;
+    max-width: 99%;
+    min-height: 20vh;
+    background-color: rgb(0, 195, 255);
+    border-style: none;
+    font-size: large;
+}
+
+#dev_msgr_txt:focus{
+    outline: none;
+}
+
+#page_div_title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#submit{
+    text-align: center;
+    padding: 1%;
+}
+
+#dev_s_d{
+    text-align: center;
+}
+
+#dev_recipient{
+    width: 60%;
+    height: 35px;
 }

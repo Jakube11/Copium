@@ -9,7 +9,7 @@
     <link rel="favicon" href="/img/C.ico">
     <!--link favicon-->
     <link rel="shortcut icon" href="/img/C.ico" type="image/x-icon">
-    <script src="/js/posts.js"></script>
+    <script src="/js/vote.js"></script>
 </head>
 <body>
     <header>
@@ -17,11 +17,13 @@
         <a href="/html/Home.html" id="header_h1_subhome">A place to spread gossip</a><br>
         <div id="header_h2">
             <a href="" id="header_h2_post">New Post</a>
-            <a href="" id="header_h2_contact">Contact</a>
+            <a href="/html/Contact.html" id="header_h2_contact">Contact</a>
             <a href="" id="header_h2_login">Login</a>
             <a href="" id="header_h2_signup">Sign Up</a>
         </div>
     </header>
+
+    <div id="page_div_title"><h2 id="page_title">Home</h2></div>
 
     <!-- example post framework, DO NOT DELETE OR ALTER -->
     <div class="postboard" id="adminposts">
@@ -30,7 +32,7 @@
             <a><div id="post">
                 <div id="post_meta">
                     <h2><a id="title">Copium Alpha 2</a>
-                    <h4><a class="pmeta_sml" id="author">Copium Administrators • 05:24 • 17/05/2022</a></h4>
+                    <h4><a class="pmeta_sml" id="author">Lead Programmer • 4:46 PM • 17/05/2022</a></h4>
                 </div>
                 <div id="post_content">
                     <a id="content">
@@ -39,9 +41,9 @@
                     </a>
                 </div>
                 <div id="upvote_box">
-                    <a><img class="vote" id="upvote" src="/img/voteb.png"></a>
+                    <a onclick="upvote()"><img class="vote" id="upvote" src="/img/votebc.png"></a>
                     <a id="vote_counter">1</a>
-                <a><img class="vote" id="downvote" src="/img/voteb.png">
+                    <a onclick="downvote()"><img class="vote" id="downvote" src="/img/votebc.png">
                 </div>
             </div></a>
         </div>
