@@ -7,7 +7,7 @@ body{
 }
 
 body header{
-    position: absolute;
+    top: 0px;
     width: 100%;
     margin: 0px;
     text-align: center;
@@ -66,4 +66,36 @@ body header a:hover{
     text-align: center;
     font-weight: bolder;
     background-color: rgb(65, 65, 65);
+}
+
+#recentposts{
+    background-color: rgb(0, 195, 255);
+    color: black;
+    margin: 20px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+}
+
+#post{
+    background-color: rgb(0, 195, 255);
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#post_meta{
+    padding-bottom: 20px;
+}
+
+#post_meta h2{
+    padding: 0%;
+    margin: 0%;
+}
+
+#post_meta h4{
+    padding: 0%;
+    margin: 0%;
 }

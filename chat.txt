@@ -9,3 +9,5 @@ yea srry ive been playing minecraft 90% of the afternoon
 Home.html links to "main.css" but the file doesnt exist? its in the folder but it doesnt actually exist?
 
 I'm still confused on what this project will actually be, so i cant really build a website without the basis on what the website actually is for.
+
+LEO - ok so baisic premise is a place for chuchlands kids to talk and gossip
