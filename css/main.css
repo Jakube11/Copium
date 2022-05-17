@@ -107,3 +107,21 @@ body header a:hover{
 #content{
     font-weight: 400;
 }
+
+#upvote_box{
+    position: relative;
+    left: 85%;
+}
+
+.vote{
+    width: 30px;
+}
+
+#downvote{
+    rotate: 180deg;
+}
+
+#vote_counter{
+    position: relative;
+    bottom: 9px;
+}
