@@ -11,3 +11,11 @@ Home.html links to "main.css" but the file doesnt exist? its in the folder but i
 I'm still confused on what this project will actually be, so i cant really build a website without the basis on what the website actually is for.
 
 LEO - ok so baisic premise is a place for chuchlands kids to talk and gossip
+
+So a message board? Also, you dont need to sign your messages, i can remember who said what.
+
+If we're creating a message board, we'll need to add an authentication page, so the user that is trying to send a message doesn't do anything malicious.
+
+We will also need a way to blacklist bots/people with malicious intent.
+
+I'm going to install VS2022, but you'll need to teach me how to use it, as I only know how to navigate VSCode.
