@@ -19,3 +19,5 @@ If we're creating a message board, we'll need to add an authentication page, so 
 We will also need a way to blacklist bots/people with malicious intent.
 
 I'm going to install VS2022, but you'll need to teach me how to use it, as I only know how to navigate VSCode.
+
+I can't run the website locally? The browser gives me a "connection refused" error message. I'm not sure how this could be caused, any help?
