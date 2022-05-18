@@ -23,3 +23,16 @@ I'm going to install VS2022, but you'll need to teach me how to use it, as I onl
 I can't run the website locally? The browser gives me a "connection refused" error message. I'm not sure how this could be caused, any help?
 
 I've installed the program, but there are plugins that I might need, but i am uncomfortable with the fact that its around 30GB with the plugins?
+
+Also, I am a bit confused about the contact.html page, I want us to be anonymous, for the most part, and I would rather not have either of our names on the project.
+
+After this project is complete, I was thinking we could try our hand at some mobile apps? I feel like if we could get more people on board with the project, we could get working on even larger projects.
+
+If we program a website with a more expansive audience, we could monetise it with https://www.google.com/adsense/start/, but since the website will only be used by students at our school, I think it'd be unlikely we'd get revenue.
+
+We could program a mobile app, and turn this website into a page dedicated to it.
+
+I feel like we should get more people to join in on the project, I spoke to Jacob and he said you already spoke to him, which is good, but if we have 5 or more people, we can get this project done faster.
+
+I have several ideas related to the mobile app that I've mentioned, if you've heard of "Yubo," it's like Tinder, but for making friends, and I feel like nowadays people are in the market for apps like these, the only reason Yubo isn't the best option is that most of the features are locked behind a paywall, we could replace the Paywall with ad space, like in the swiping feature, we could introduce an unskippable 10 second ad, which would pull in a lot of revenue.
+
