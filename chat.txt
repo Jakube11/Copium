@@ -36,3 +36,7 @@ I feel like we should get more people to join in on the project, I spoke to Jaco
 
 I have several ideas related to the mobile app that I've mentioned, if you've heard of "Yubo," it's like Tinder, but for making friends, and I feel like nowadays people are in the market for apps like these, the only reason Yubo isn't the best option is that most of the features are locked behind a paywall, we could replace the Paywall with ad space, like in the swiping feature, we could introduce an unskippable 10 second ad, which would pull in a lot of revenue.
 
+I've been trying to get VS2022 to work, but it has trouble opening the repository.
+
+I've told Jacob to install GitHub so he can also contribute on the project.
+
