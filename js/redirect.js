@@ -1,1 +1,1 @@
-window.location.replace("/html/Home.html")
+window.location.replace("/html/Home.html");
