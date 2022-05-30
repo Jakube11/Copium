@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,10 @@
     <!--link favicon-->
     <link rel="shortcut icon" href="/img/C.ico" type="image/x-icon">
     <script src="/js/vote.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <header>
         <a href="/html/Home.html" id="header_h1_home">COPIUM</a><br>
         <a href="/html/Home.html" id="header_h1_subhome">A place to spread gossip</a><br>
@@ -23,24 +25,19 @@
         </div>
     </header>
 
-    <div id="page_div_title"><h2 id="page_title">Message The Developers</h2></div>
+    <div id="page_div_title"><h2 id="page_title">New Post</h2></div>
+
     <form method="post" action="">
-        <div class="postboard">
-            <textarea name="content" id="dev_msgr_txt" placeholder="Write your message here ..."></textarea>
+        <div id="dev_s_d">
+            <input name="title" id="dev_recipient" placeholder="Title ..." class="postboard" type="text"></input>
+        </div>
+            <div class="postboard">
+            <textarea name="content" id="dev_msgr_txt" placeholder="Post content ..."></textarea>
         </div>
         <div id="dev_s_d">
-            Send to:
-            <select name="dev_r" class="postboard" id="dev_recipient">
-                <option>All Admins</option>
-                <option>Lead Programmer</option>
-                <option>Lead Art Designer</option>
-                <option>Lead Moderator</option>
-            </select>
-
-            <input class="postboard" id="dev_recipient" type="submit" value="Send"></input>
+            <input class="postboard" id="dev_recipient" type="submit" value="Post"></input>
         </div>
 
     </form>
-    
 </body>
 </html>

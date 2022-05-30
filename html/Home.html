@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,20 @@
     <!--link favicon-->
     <link rel="shortcut icon" href="/img/C.ico" type="image/x-icon">
     <script src="/js/vote.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- #include file="header.html" -->
+
+    <header>
+        <a href="/html/Home.html" id="header_h1_home">COPIUM</a><br>
+        <a href="/html/Home.html" id="header_h1_subhome">A place to spread gossip</a><br>
+        <div id="header_h2">
+            <a href="/html/Post.html" id="header_h2_post">New Post</a>
+            <a href="/html/Contact.html" id="header_h2_contact">Contact</a>
+            <a href="" id="header_h2_login">Login</a>
+            <a href="" id="header_h2_signup">Sign Up</a>
+        </div>
+    </header>
 
     <div id="page_div_title"><h2 id="page_title">Home</h2></div>
 
@@ -46,14 +57,24 @@
 
             <a><div id="post">
                 <div id="post_meta">
-                    <h2><a id="title">Ex-Bestie list</a>
-                    <h4><a class="pmeta_sml" id="author">Lead Programmer • 4:46 PM • 19/05/2022</a></h4>
+                    <h2><a id="title">Bestie Rankings</a>
+                    <h4><a class="pmeta_sml" id="author">Lead Programmer • 9:56 AM • 21/05/2022</a></h4>
                 </div>
                 <div id="post_content">
                     <a id="content">
-                        1. Athea  <br>
-                        2. Lyla <br>
-                        3. Tilly  <br>
+                        1. Isla <br>
+                        2. Mei <br>
+                        3. 'Bestie Number 2' <br>
+                        4. Chelita <br>
+                        5. Caitlin <br>
+                        6. Lauren <br>
+                        7. Issy <br>
+                        8. Menessa <br>
+                        9. Layla <br>
+                        10. Kia <br>
+                        11. Bri <br>
+                        12. Nick Cia <br>
+                        13. Joanna <br>
                     </a>
                 </div>
                 <div id="upvote_box">
@@ -62,6 +83,7 @@
                     <a onclick="downvote()"><img class="vote" id="downvote" src="/img/votebc.png">
                 </div>
             </div></a>
+
 
         </div>
     </div>
