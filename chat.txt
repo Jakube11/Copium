@@ -41,3 +41,5 @@ I've been trying to get VS2022 to work, but it has trouble opening the repositor
 I've told Jacob to install GitHub so he can also contribute on the project.
 
 Jakube#4721
+
+cbf flipping votebc.png
